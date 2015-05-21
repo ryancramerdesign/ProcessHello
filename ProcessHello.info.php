@@ -58,6 +58,11 @@ $info = array(
 			'label' => 'Something', 
 			'icon' => 'beer', 
 		),
+		array(
+			'url' => 'something-else/',
+			'label' => 'Something Else',
+			'icon' => 'glass',
+		),
 	)
 
 	// for more options that you may specify here, see the file: /wire/core/Process.php

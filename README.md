@@ -4,7 +4,7 @@ A starting point skeleton from which to build your own Process module.
 Process modules are used primarily for building admin applications and tools.
 This module also creates a page in the ProcessWire admin to run itself from.
 
-This version of ProcessHello is designed for ProcessWire 2.5.5 or newer. 
+This version of ProcessHello is designed for ProcessWire 2.6.1 or newer. 
 
 
 ## How to use this to make your own Process module
@@ -39,7 +39,7 @@ Stop by the [ProcessWire forums](http://processwire.com/talk/) anytime and we wi
 to help with any questions. 
 
 ------
-[ProcessWire](http://processwire.com) Copyright 2014 by Ryan Cramer
+[ProcessWire](http://processwire.com) Copyright 2015 by Ryan Cramer
 
 
 
