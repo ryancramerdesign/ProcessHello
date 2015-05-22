@@ -7,6 +7,17 @@ This module also creates a page in the ProcessWire admin to run itself from.
 This version of ProcessHello is designed for ProcessWire 2.6.1 or newer. 
 
 
+## How to test this module
+
+1. Install the module from your admin (Modules > Site > Process > Hello).
+
+2. Configure the module.
+
+3. Click to Setup > Hello.
+
+4. After testing it, modify it to do something useful. 
+
+
 ## How to use this to make your own Process module
 
 To see exactly what this module does, you may want to install it as-is first. 
