@@ -12,7 +12,7 @@ This version of ProcessHello is designed for ProcessWire 2.6.1 or newer.
 To see exactly what this module does, you may want to install it as-is first. 
 Then uninstall and follow the instructions below. 
 
-1. Rename the ProcessHello.module file to be Process[YourModuleName].module.php
+1. Rename the ProcessHello.module.php file to be Process[YourModuleName].module.php
 
 2. Change the class name to be Process[YourModuleName]
 
@@ -25,15 +25,13 @@ Then uninstall and follow the instructions below.
 5. Edit the Process[YourModuleName].info.php file to contain info specific to your module. 
 
 6. If you want your module to be configurable, edit the Process[YourModuleName].config.php
-   file, update the configuration, and change the class name as appropriate. If you do not 
-   need a configurable module, simply remove the file. 
+   file, update the configuration to be consistent with your needs. If you do not need a 
+   configurable module, simply remove the file. 
 
-7. Change all the text here to describe your module and update the README.md file.
+7. Update this README.md file to contain information specific to your module. 
 
-8. Change the copyright line directly below to have your information.
-
-9. When ready, post your module to GitHub and to modules.processwire.com!
-
+8. When you've got something you'd like to share, post your module to GitHub and to 
+   modules.processwire.com!
 
 Stop by the [ProcessWire forums](http://processwire.com/talk/) anytime and we will be glad 
 to help with any questions. 

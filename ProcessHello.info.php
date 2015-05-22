@@ -5,8 +5,12 @@
  * 
  * Return information about this module.
  *
- * If preferred, you can use a getModuleInfo() method in your module file, 
- * or you can use a ModuleName.info.json file (if you prefer JSON definition). 
+ * If you prefer to keep everything in the main module file, you can move this
+ * to a static getModuleInfo() method in the ProcessHello.module.php file, which
+ * would return the same array as below.
+ * 
+ * Note that if you change any of these properties for an already installed 
+ * module, you will need to do a Modules > Refresh before you see them. 
  *
  */
 
@@ -18,7 +22,7 @@ $info = array(
 	// A 1 sentence description of what your module does
 	'summary' => 'A starting point module skeleton from which to build your own Process module.', 
 
-	// Module version number: use 1 for 0.0.1 or 100 for 1.0.0, and so on
+	// Module version number (integer)
 	'version' => 1, 
 
 	// Name of person who created this module (change to your name)
@@ -26,6 +30,9 @@ $info = array(
 
 	// Icon to accompany this module (optional), uses font-awesome icon names, minus the "fa-" part
 	'icon' => 'thumbs-up', 
+
+	// Indicate any requirements as CSV string or array containing [RequiredModuleName][Operator][Version]
+	'requires' => 'ProcessWire>=2.6.1', 
 
 	// URL to more info: change to your full modules.processwire.com URL (if available), or something else if you prefer
 	'href' => 'http://modules.processwire.com/', 
@@ -45,8 +52,7 @@ $info = array(
 		'title' => 'Hello World'
 	),
 
-	// optional extra navigation that appears in admin
-	// if you change this, you'll need to a Modules > Refresh to see changes
+	// optional extra navigation that appears in admin drop down menus
 	'nav' => array(
 		array(
 			'url' => '', 

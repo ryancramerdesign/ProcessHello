@@ -9,8 +9,9 @@
  * is specified with the .module file.
  *
  * For more about configuration methods, see here: 
- * https://processwire.com/blog/posts/new-module-configuration-options/
- * https://processwire.com/blog/posts/processwire-core-updates-2.5.27/#expanded-module-configuration-options-within-module-file
+ * 
+ * https://processwire.com/to/nmco/
+ * https://processwire.com/to/emcwmf/
  *
  * 
  */
@@ -20,24 +21,24 @@ $config = array(
 	// Text field: greeting
 	'greeting' => array(
 		'type' => 'text', // type of field (any Inputfield module name)
-		'label' => $this->_('Hello Greeting'), // field label
-		'description' => $this->_('What would you like to say to people using this module?'), 
+		'label' => __('Hello Greeting'), // field label
+		'description' => __('What would you like to say to people using this module?'), 
 		'required' => true, 
-		'value' => $this->_('A very happy hello world to you.'), // default value
+		'value' => __('A very happy hello world to you.'), // default value
 	),
 
 	// Radio buttons: greetingType
 	'greetingType' => array(
 		'type' => 'radios', 
-		'label' => $this->_('Greeting Type'), 
+		'label' => __('Greeting Type'), 
 		'options' => array(
 			// options array of value => label
-			'message' => $this->_('Message'), 
-			'warning' => $this->_('Warning'),
-			'error' => $this->_('Error'), 
+			'message' => __('Message'), 
+			'warning' => __('Warning'),
+			'error' => __('Error'), 
 			),
 		'value' => 'warning', // default value
 		'optionColumns' => 1, // make options display on one line
-		'notes' => $this->_('Choose wisely'), // like description but appears under field
+		'notes' => __('Choose wisely'), // like description but appears under field
 	)
 ); 

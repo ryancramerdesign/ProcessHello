@@ -12,8 +12,16 @@
  * ProcessWire 2.x 
  * Copyright (C) 2015 by Ryan Cramer 
  * Licensed under GNU/GPL v2, see LICENSE.TXT
+ * https://processwire.com
  * 
- * http://processwire.com
+ * Below we use phpdoc syntax to identify the configurable properties
+ * from our ProcessHello.config.php file. This is optional, but may be
+ * helpful if you are using an editor that recognizes phpdoc syntax.
+ * These properties will be automatically populated to your module, regardless
+ * of whether or not you mention them here. See the ProcessHello.config.php file.
+ * 
+ * @property string $greeting Greeting that you'd like to display
+ * @property string $greeetingType Type of greeting: message|warning|error
  *
  */
 
