@@ -1,7 +1,8 @@
-<!-- View file for the executeSomethingElse() method in ProcessHello.module.php -->
-
-<h2>Number of pages in your site: <strong><?=$numPages?></strong></h2>
-<p>Here are the last 10 created pages:</p>
-<p><?= $newPages->implode('<br>', '<a href="{url}">{title|name}</a>') ?></p>
-<p><?= __('This is some translatable text.') ?></p>
-<p><a href='../'>Go back</a></p>
+<?php namespace ProcessWire;
+/** @var string $subhead */
+/** @var PageArray $newPages */
+?>
+<h2><?=$subhead?></h2>
+<ul>
+	<?=$newPages->each("<li><a href='{url}'>{title|name}</a></li>")?>
+</ul>

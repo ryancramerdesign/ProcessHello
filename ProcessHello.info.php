@@ -1,4 +1,4 @@
-<?php
+<?php namespace ProcessWire;
 
 /**
  * ProcessHello.info.php
@@ -23,7 +23,7 @@ $info = array(
 	'summary' => 'A starting point module skeleton from which to build your own Process module.', 
 
 	// Module version number (integer)
-	'version' => 1, 
+	'version' => 2, 
 
 	// Name of person who created this module (change to your name)
 	'author' => 'Ryan Cramer', 
@@ -32,10 +32,10 @@ $info = array(
 	'icon' => 'thumbs-up', 
 
 	// Indicate any requirements as CSV string or array containing [RequiredModuleName][Operator][Version]
-	'requires' => 'ProcessWire>=2.6.1', 
+	'requires' => 'ProcessWire>=3.0.164', 
 
 	// URL to more info: change to your full modules.processwire.com URL (if available), or something else if you prefer
-	'href' => 'http://modules.processwire.com/', 
+	'href' => 'https://processwire.com/modules/process-hello/', 
 
 	// name of permission required of users to execute this Process (optional)
 	'permission' => 'helloworld', 
@@ -68,6 +68,11 @@ $info = array(
 			'url' => 'something-else/',
 			'label' => 'Something Else',
 			'icon' => 'glass',
+		),
+		array(
+			'url' => 'form/',
+			'label' => 'Simple form',
+			'icon' => 'building',
 		),
 	)
 

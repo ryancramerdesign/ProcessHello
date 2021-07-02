@@ -1,0 +1,26 @@
+en,es,description,file,hash
+"What do you want to do today?","¿Qué quieres hacer hoy?",,site/modules/ProcessHello/ProcessHello.module.php,7fee16fad9f38b1729454ce94ca3c7b2
+Something,"Alguna cosa",,site/modules/ProcessHello/ProcessHello.module.php,73f9977556584a369800e775b48f3dbe
+"Something else","Algo más",,site/modules/ProcessHello/ProcessHello.module.php,bf086eb471716d6e62b731268d06807d
+"Simple form","Forma simple",,site/modules/ProcessHello/ProcessHello.module.php,e3679dc84f9d6931e09488a7c52c8815
+"This is something","Esto es algo",,site/modules/ProcessHello/ProcessHello.module.php,a2ddd156f3c1267455edd51407fb6e62
+Hello,Hola,,site/modules/ProcessHello/ProcessHello.module.php,8b1a9953c4611296a827abf8c47804d7
+"Your system has %d users","Su sistema tiene %d usuarios",,site/modules/ProcessHello/ProcessHello.module.php,264ba2a8e101571c519a9b1caeb24a71
+"This is something else!","¡Esto es otra cosa!",,site/modules/ProcessHello/ProcessHello.module.php,aae56b6966ff8e4a12e2fc5c7598d5c0
+"There are %d pages in this site","aquí hay %d páginas en este sitio",,site/modules/ProcessHello/ProcessHello.module.php,b11a5d947f20ec730b927da7761ee998
+"Here are the last 10 created pages:","Aquí están las últimas 10 páginas creadas:",,site/modules/ProcessHello/ProcessHello.module.php,f6027c2b38901f5589683c94cd94441c
+"Here is a simple form","Aquí hay un formulario simple","the <h1> headline",site/modules/ProcessHello/ProcessHello.module.php,a41ef3b4257d7587595cb19999be692f
+"Simple form example","Ejemplo de forma simple","The <title> tag",site/modules/ProcessHello/ProcessHello.module.php,f9ab6477b5602fd9dbd9f74145162a3f
+"Please fill this out and submit","Por favor complete esto y envíelo",,site/modules/ProcessHello/ProcessHello.module.php,6e81d468def9d2595367b8f9a86511bd
+"Text to display in a notification","Texto para mostrar en una notificación",,site/modules/ProcessHello/ProcessHello.module.php,43e656eecbd70ec8e7fb2dbf2dcf5035
+"Submit now","Aplique ahora",,site/modules/ProcessHello/ProcessHello.module.php,f4c6249c1ee4f56d258f0df42d53b5d6
+"Submit and exit","Enviar y salir","after-submit actions",site/modules/ProcessHello/ProcessHello.module.php,ea1aa9759098b06b3390767525016f3d
+"Submit and go to page list","Enviar e ir a la lista de páginas",,site/modules/ProcessHello/ProcessHello.module.php,77c4dfe2c81738c5be7016bc6fbc2e36
+"Your notification text","Su texto de notificación",,site/modules/ProcessHello/ProcessHello.module.php,164d6bc93c69ffb92c864d0075a89194
+"Hello greeting",Saludo,,site/modules/ProcessHello/ProcessHello.module.php,d45a185f39ebf2d9c038c79319c4862a
+"What would you like to say to people using this module?","¿Qué le gustaría decirles a las personas que utilizan este módulo?",,site/modules/ProcessHello/ProcessHello.module.php,3140300e109e122fe267a7866f3c2d81
+"Greeting type","Tipo de saludo",,site/modules/ProcessHello/ProcessHello.module.php,b372ad4948d8265b4ca3796845eb2248
+Message,Mensaje,,site/modules/ProcessHello/ProcessHello.module.php,4c2a8fe7eaf24721cc7a9f0175115bd4
+Warning,Advertencia,,site/modules/ProcessHello/ProcessHello.module.php,0eaadb4fcb48a0a0ed7bc9868be9fbaa
+Error,=,,site/modules/ProcessHello/ProcessHello.module.php,902b0d55fddef6f8d651fe1035b7d4bd
+"Choose wisely","Elegir sabiamente","like description but appears under field",site/modules/ProcessHello/ProcessHello.module.php,10a0bec7ff2c573bc34c97cfe5e76a6a

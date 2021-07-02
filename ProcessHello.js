@@ -5,6 +5,6 @@
  *
  */
 
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 	// do something
 }); 
